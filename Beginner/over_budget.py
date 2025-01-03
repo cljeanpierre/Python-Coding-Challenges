@@ -1,11 +1,11 @@
 #Control Flow Challenges (Beginner)
 
 '''
-Challenge 2
-You are given a monthly budget and some expenses and need to check if the sum of the expenses goes over budget!
+Challenge 
+You are given a monthly budget and some expenses and need to check if the sum of the expenses goes over budget
 '''
 
-#Challenge 2: Over Budget
+#Over Budget
 
 budget = 2000
 
