@@ -20,3 +20,13 @@ def append_sum(my_list):
 
 
 print(append_sum([1, 1, 2]))
+
+# Alternative Approach
+
+def append_sum(my_list):
+  for i in range(3):
+    # Get the sum of last two elements of the list and append it to the list
+    my_list.append(my_list[-1] + my_list[-2])
+  return my_list
+
+print(append_sum([1, 1, 2]))
