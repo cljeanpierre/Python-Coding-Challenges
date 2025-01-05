@@ -7,4 +7,16 @@ of the original list. After doing so, it repeats this process two more times and
 
 '''
 
-#Append Size
+#Append Sum
+
+def append_sum(my_list):
+  sum_last2 = my_list[-1] + my_list[-2]
+  my_list.append(sum_last2)
+  nextsum = my_list[-1] + my_list[-2]
+  my_list.append(nextsum)
+  lastsum = my_list[-1] + my_list[-2]
+  my_list.append(lastsum)
+  return my_list
+
+
+print(append_sum([1, 1, 2]))
