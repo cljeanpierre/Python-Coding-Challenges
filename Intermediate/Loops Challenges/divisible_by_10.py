@@ -1,4 +1,4 @@
-#Loop Challenges (Intermediate)
+#Loops Challenges (Intermediate)
 
 '''
 Challenge 
