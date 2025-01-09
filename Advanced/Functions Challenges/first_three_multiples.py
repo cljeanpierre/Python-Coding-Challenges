@@ -9,6 +9,7 @@ of a number and return the third multiple.
 '''
 
 #First Three Multiples
+
 def first_three_multiples(num):
   print(num)
   print(num * 2)
