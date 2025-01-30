@@ -12,3 +12,13 @@ different letters
 #Count Letters
 
 letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+def unique_english_letters(word):
+  unique_letters = 0
+  for letter in letters: 
+    if letter in word:
+      unique_letters += 1
+  return unique_letters
+
+print(unique_english_letters("Sample"))
+print(unique_english_letters("perpendicular"))
