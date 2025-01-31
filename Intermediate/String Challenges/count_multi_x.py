@@ -9,3 +9,11 @@ shorter string (second parameter) within the longer string (first parameter).
 '''
 
 #Count Multi X
+
+def count_multi_char_x(word, x):
+  word_parts = word.split(x)
+  count_word_parts = len(word_parts) - 1
+  return count_word_parts
+
+print(count_multi_char_x("apple", "pp"))
+print(count_multi_char_x("mississippi", "iss"))
