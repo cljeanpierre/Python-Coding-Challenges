@@ -9,3 +9,6 @@ substring.
 '''
 
 #Substring Between
+
+def substring_between_letters(word, start, end):
+    pass
