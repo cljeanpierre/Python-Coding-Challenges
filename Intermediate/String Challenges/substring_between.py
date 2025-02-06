@@ -11,4 +11,11 @@ substring.
 #Substring Between
 
 def substring_between_letters(word, start, end):
-    pass
+  start_index = word.find(start)
+  end_index = word.find(end)
+  if start_index > -1 and end_index > -1:
+    return(word[start_index+1:end_index])
+  return word
+
+
+print(substring_between_letters("apple", "p", "e"))
