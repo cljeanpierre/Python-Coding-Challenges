@@ -8,3 +8,15 @@ Create a function that is able to check if a user’s name is located within the
 '''
 
 #Name Check
+
+def check_for_name(sentence, name):
+  if name.lower() in sentence.lower():
+    return True
+  return False
+  
+print(check_for_name("My name is Jamie", "Jamie"))
+# should print True
+print(check_for_name("My name is jamie", "Jamie"))
+# should print True
+print(check_for_name("My name is Samantha", "Jamie"))
+# should print False
