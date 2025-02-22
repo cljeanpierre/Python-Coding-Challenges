@@ -8,3 +8,10 @@ greater than or equal to the number provided.
 '''
 
 #X Length
+
+def x_length_words(sentence, x):
+  complete_sentence = sentence.split()
+  for word in complete_sentence:
+    if len(word) < x:
+      return False
+  return True
